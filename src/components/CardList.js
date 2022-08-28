@@ -7,9 +7,10 @@ const CardList = ({ robots }) => {
         return <Card key={i} name={user.name} id={user.id} email={user.email} />
     });
 
-    if(true) {
-        throw new Error("Newwwww");
-    }
+    // Below condition was added to test React ErrorBoundary
+    // if(true) {
+    //     throw new Error("Newwwww");
+    // }
 
     return (
         <div>
